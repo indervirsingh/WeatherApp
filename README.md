@@ -4,4 +4,4 @@
     Enter a city name and press enter.
 
 ## Live Demo
-*   [Click for live demo]("https://indervirsingh.github.io/WeatherApp")
+*   [Click for live demo]("https://indervirsingh.github.io/WeatherApp/")
