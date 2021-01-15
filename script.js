@@ -12,7 +12,6 @@ function setQuery(event) {
 
     if (event.keyCode == 13) {
         getResults(searchbox.value);
-        console.log(searchbox.value);
     }
 }
 
