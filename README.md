@@ -4,4 +4,4 @@
     Enter a city name and press enter.
 
 ## Live Demo
-*   [Click for live demo]("https://indervirsingh.github.io/WeatherApp")
+*   <a href="https://indervirsingh.github.io/WeatherApp/" target="_blank" title="Weather App Demo">Click Me</a>
