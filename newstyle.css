@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aquamarine;
+}
+
+.dashboard {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.search-text, .search-label {
+    height: 30px;
+    width: 15%;
+    margin-left: 1%;
+}
+
+#search-button {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.examples-list {
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+
+.weather-results {
+    margin-left: 25%;
+    text-indent: 3%;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+#five-day-forecast-title {
+    margin-left: 25%;
+}
+
+.five-day-forecast {
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+    padding: 10px;
+
+}
+
+#date-day1, #date-day2, #date-day3, #date-day4, #date-day5 {
+    font-weight: bolder;
+}
