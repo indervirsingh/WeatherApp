@@ -8,8 +8,79 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/810629849b.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 </head>
 <body>
+
+    <div class="dashboard">
+        <h1>Weather Dashboard</h1>
+    </div>
+
+    <div class="search">
+        <label for="search">Search for a city:</label>
+        <input type="text"><button class="btn btn-success"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Austin</li>
+          <li class="list-group-item">Chicago</li>
+          <li class="list-group-item">New York</li>
+          <li class="list-group-item">San Francisco</li>
+          <li class="list-group-item">Seattle</li>
+        </ul>
+      </div>
+
+    <div class="weather-results">
+        <p id="city">Load city and date here</p>
+        <p id="temperature">Load temp here</p>
+        <p id="humidity">Load humidity</p>
+        <p id="wind-speed">load wind speed</p>
+        <p id="uv-index">UV index</p>
+    </div>
+
+
+    <div class="5-day-forecast">
+
+        <div class="card day1" style="max-width: 18rem;">
+            <p id="date-day1">Load Date</p>
+            <p id="temp-day1">Load Temp</p>
+            <p id="humidity-day1">Load Humidity</p>
+        </div>
+
+        <div class="card day2" style="max-width: 18rem;">
+            <p id="date-day2">Load Date</p>
+            <p id="temp-day2">Load Temp</p>
+            <p id="humidity-day2">Load Humidity</p>
+        </div>
+
+        <div class="card day4" style="max-width: 18rem;">
+            <p id="date-day3">Load Date</p>
+            <p id="temp-day3">Load Temp</p>
+            <p id="humidity-day3">Load Humidity</p>
+        </div>
+
+        <div class="card day4" style="max-width: 18rem;">
+            <p id="date-day4">Load Date</p>
+            <p id="temp-day4">Load Temp</p>
+            <p id="humidity-day4">Load Humidity</p>
+        </div>
+
+        <div class="card day5" style="max-width: 18rem;">
+            <p id="date-day5">Load Date</p>
+            <p id="temp-day5">Load Temp</p>
+            <p id="humidity-day5">Load Humidity</p>
+        </div>
+    </div>
+
+
+
+
 
     <div class="app-wrap">
 
